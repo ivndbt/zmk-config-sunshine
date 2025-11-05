@@ -58,7 +58,7 @@
 // | RST  |    ||    | ZMKSTUDIO |----------|                 |        |-----| MO(3) |    |    |    |    |
             bindings = <
 &trans       &trans  &trans  &trans   &trans          &trans  &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans
-&trans       &trans  &trans  &trans   &trans          &trans  &bt BT_CLR    &bt BT_PREV   &bt BT_NXT    &trans  &trans  &trans  &trans  &trans
+&trans       &trans  &trans  &trans   &trans          &trans  &bt BT_CLR    &bt BT_PRV    &bt BT_NXT    &trans  &trans  &trans  &trans  &trans
 &bootloader  &trans  &trans  &trans   &trans          &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans  &trans  &trans           
 &trans       &none   &trans  &trans   &trans          &trans  &bt BT_SEL 3  &bt BT_SEL 4  &trans        &trans  &trans  &trans  &trans  &trans
 &sys_reset   &trans  &trans           &studio_unlock          &trans        &trans        &mo 3         &trans  &trans  &trans  &trans  &trans
