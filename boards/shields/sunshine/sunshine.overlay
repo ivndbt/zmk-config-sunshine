@@ -10,7 +10,7 @@
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,matrix-transform = &uni_transform;
+        zmk,matrix-transform = &hybrid_transform;
     };
 
     kscan0: kscan {
@@ -40,7 +40,7 @@
             ;
     };
 
-    uni_transform: matrix_transform {
+    hybrid_transform: matrix_transform {
         compatible = "zmk,matrix-transform";
         rows = <10>;
         columns = <7>;
@@ -54,9 +54,9 @@
     };
 };
 
-&uni_layout {
+&hybrid_layout {
     kscan = <&kscan0>;
-    transform = <&uni_transform>;
+    transform = <&hybrid_transform>;
 };
 
 left_encoder: encoder_left {

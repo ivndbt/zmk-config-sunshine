@@ -7,12 +7,12 @@
  #include <physical_layouts.dtsi>
 
 / {
-    uni_layout: uni_layout {
+    hybrid_layout: hybrid_layout {
         compatible = "zmk,physical-layout";
-        display-name = "Unified Layout";
+        display-name = "Hybrid Layout";
         
         kscan = <&kscan0>;
-        transform = <&uni_transform>;
+        transform = <&hybrid_transform>;
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100   50    5       0     0     0>
