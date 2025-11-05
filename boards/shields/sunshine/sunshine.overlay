@@ -10,7 +10,7 @@
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,matrix-transform = &hybrid_transform;
+        zmk,physical-layout = &hybrid_layout;
     };
 
     kscan0: kscan {
