@@ -1,0 +1,6 @@
+if SHIELD_SUNSHINE
+
+config ZMK_KEYBOARD_NAME
+    default "SUNSHINE"
+
+endif

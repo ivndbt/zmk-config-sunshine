@@ -20,4 +20,5 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: crbn
+    shield: sunshine
+    snippet: studio-rpc-usb-uart

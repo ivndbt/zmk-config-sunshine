@@ -1,0 +1,11 @@
+file_format: "1"
+id: sunshine
+name: sunshine
+type: shield
+url: https://github.com/ivndbt/sunshine/
+requires: [pro_micro]
+exposes: [power]
+features:
+  - keys
+  - encoder
+  - studio
