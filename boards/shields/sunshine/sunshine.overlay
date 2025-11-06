@@ -40,7 +40,7 @@
             ;
     };
 
-    ansi_transform: matrix_transform {
+    ansi_transform: matrix_transform_ansi {
         compatible = "zmk,matrix-transform";
         rows = <10>;
         columns = <7>;
@@ -53,7 +53,7 @@
         >;
     };
 
-    iso_transform: matrix_transform {
+    iso_transform: matrix_transform_iso {
         compatible = "zmk,matrix-transform";
         rows = <10>;
         columns = <7>;
