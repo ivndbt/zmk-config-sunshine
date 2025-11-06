@@ -2,6 +2,14 @@
 
 Firmware configuration and keymap definitions for the Sunshine keyboard powered by [ZMK Firmware](https://zmk.dev/).
 
+## Important Notice
+
+This is the **official and supported branch** of the Sunshine firmware.  
+Only the firmware builds generated from this branch are tested to be **stable and functional**.
+
+> **Always download the firmware from the `main` branch.**  
+> Files from other branches are experimental and not recommended for installation.
+
 ## Layouts
 
 To keep things simple and easy to maintain, both ANSI and ISO layouts coexist in a single **hybrid layout**.
